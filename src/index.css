@@ -19,6 +19,7 @@ code {
 	width: 600px;
 	background-color: #fff;
 	box-shadow: 0 0 10px #000;
+	padding-bottom: 40px;
 }
 
 .top {
@@ -51,6 +52,7 @@ select {
 	margin-bottom: 25px;
 	padding: 8px 10px;
 	width: 100%;
+	max-width: 530px;
 	border-radius: 5px;
 	border: 1px solid rgb(185, 185, 185);
 }
@@ -75,7 +77,9 @@ select {
 }
 
 .cost-info {
-	margin-top: 10px;
+	display: block;
+	padding: 0 0 20px 0;
+	text-align: center;
 	font-size: 20px;
 }
 
